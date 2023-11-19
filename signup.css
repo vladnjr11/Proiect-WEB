@@ -1,0 +1,60 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+    background-position: center; 
+    padding-top: 120px;
+    font-family: 'Inter';
+}
+::placeholder{
+    font-family: 'Khand';
+}
+.signup
+{
+    width: 489px;
+    height: 636px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+}
+h1{
+    margin-left:174px;
+    margin-top:102px;
+}
+form label input{
+    width: 389px;
+    height: 48px;
+    margin-left:48px;
+    margin-top: 14px;
+    background: #F0F0F0;
+    border-radius:8px;
+    border: none;
+    flex-shrink: 0;
+}
+form input{
+    margin-top:10px;
+}
+input[type="checkbox"]
+{
+    margin-left: 48px;
+    margin-top: 90px;
+}
+svg
+{
+    margin-left:200px;
+    margin-bottom: 50px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: "Khand";
+}
+.first{
+    margin-left: 218px;
+}
+.second{
+    margin-left: 215px;
+}
